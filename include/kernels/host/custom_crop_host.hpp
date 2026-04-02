@@ -28,7 +28,8 @@ THE SOFTWARE.
 #include "operator_types.h"
 
 namespace Kernels {
-namespace Host {
+namespace Host
+{
 template <typename SrcWrapper, typename DstWrapper>
 void custom_crop_kernel(SrcWrapper input, DstWrapper output, const int roi_x, const int roi_y, const int roi_w,
                         const int roi_h) {
